@@ -1,0 +1,80 @@
+/*Base reset*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62,5%;
+}
+
+body {
+	font-family: 'Outfit', sans-serif;
+}
+
+body p {
+	font-size: 15px;
+}
+
+/*Style for attribution from Frontend Mentor*/
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+.container {
+	background-color: hsl(212, 45%, 89%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.card {
+	background-color: hsl(0, 0%, 100%);
+	padding: 1rem;
+	margin: 20rem;
+	border: solid red 1px;
+	border-radius: 5%;
+	box-shadow: 0 0.2rem 0.4rem 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	max-width: 21.5rem;
+}
+
+img {
+	width: 100%;
+	height: 21.4rem;
+	object-fit: cover;
+	border-radius: 0.7rem;
+	
+}
+
+.card-txt {
+	margin: 0.3rem;
+	padding: 0.2rem 0.8rem;
+	text-align: center;
+	
+	
+}
+
+#card-title {
+	color: hsl(218, 44%, 22%);
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin: 0.5rem 0 0.5rem 0;
+}
+
+#card-text {
+	color: hsl(220, 15%, 55%);
+	font-weight: 400;
+	margin: 1rem 0 0.5rem 0;
+	
+}
+
+@media only screen and (min-width: 375px) {
+	width: 100%;
+}
